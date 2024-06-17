@@ -1,22 +1,22 @@
-Project Overview
+## Project Overview
 This project involves the creation of a fraud detection model using a dataset that simulates financial transactions over a 30-day period. The dataset includes various transaction types and contains both legitimate and fraudulent transactions. The goal is to build a model that can effectively identify fraudulent transactions to help mitigate financial risks.
 
-Dataset Description
+## Dataset Description
 The dataset contains the following features:
 
-step: Represents a unit of time (1 hour) over the 30-day simulation period.
-type: The type of transaction (e.g., CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER).
-amount: The transaction amount in local currency.
-nameOrig: The customer initiating the transaction.
-oldbalanceOrg: The initial balance of the origin account before the transaction.
-newbalanceOrig: The balance of the origin account after the transaction.
-nameDest: The customer receiving the transaction.
-oldbalanceDest: The initial balance of the destination account before the transaction (not available for merchants).
-newbalanceDest: The balance of the destination account after the transaction (not available for merchants).
-isFraud: Indicates if the transaction is fraudulent.
-isFlaggedFraud: Flags illegal transfer attempts over 200,000 units.
+# step: Represents a unit of time (1 hour) over the 30-day simulation period.
+# type: The type of transaction (e.g., CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER).
+# amount: The transaction amount in local currency.
+# nameOrig: The customer initiating the transaction.
+# oldbalanceOrg: The initial balance of the origin account before the transaction.
+# newbalanceOrig: The balance of the origin account after the transaction.
+# nameDest: The customer receiving the transaction.
+# oldbalanceDest: The initial balance of the destination account before the transaction (not available for merchants).
+# newbalanceDest: The balance of the destination account after the transaction (not available for merchants).
+# isFraud: Indicates if the transaction is fraudulent.
+# isFlaggedFraud: Flags illegal transfer attempts over 200,000 units.
 
-Data Preparation and Exploration
+## Data Preparation and Exploration
 Loading Data: The initial step involved loading the dataset and performing exploratory data analysis (EDA). This revealed insights into the distribution of transaction types, the prevalence of fraudulent transactions, and anomalies in the dataset.
 
 Data Cleaning: Missing values were handled appropriately. Categorical variables, such as transaction types, were transformed into numerical representations using one-hot encoding.
