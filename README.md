@@ -5,15 +5,25 @@ This project involves the creation of a fraud detection model using a dataset th
 The dataset contains the following features:
 
 step: Represents a unit of time (1 hour) over the 30-day simulation period.
+
 type: The type of transaction (e.g., CASH-IN, CASH-OUT, DEBIT, PAYMENT, TRANSFER).
+
 amount: The transaction amount in local currency.
+
 nameOrig: The customer initiating the transaction.
+
 oldbalanceOrg: The initial balance of the origin account before the transaction.
+
 newbalanceOrig: The balance of the origin account after the transaction.
+
 nameDest: The customer receiving the transaction.
+
 oldbalanceDest: The initial balance of the destination account before the transaction (not available for merchants).
+
 newbalanceDest: The balance of the destination account after the transaction (not available for merchants).
+
 isFraud: Indicates if the transaction is fraudulent.
+
 isFlaggedFraud: Flags illegal transfer attempts over 200,000 units.
 
 ## Data Preparation and Exploration
@@ -91,7 +101,6 @@ Advanced Machine Learning Techniques: Explore deep learning models and anomaly d
 Scalability and Performance: Ensure the system is scalable to handle increasing transaction volumes without compromising performance, critical for growing financial institutions.
 
 By implementing these strategies, financial institutions can not only reduce fraud-related losses but also enhance customer satisfaction, ensure compliance, and maintain a competitive edge in the market.
-
 
 
 
